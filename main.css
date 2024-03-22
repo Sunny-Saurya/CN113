@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+.navbar {
+    background-color: rgb(202, 159, 18);
+    width: 100vw;
+    height: 7vh;
+    color: white;
+    /* margin: 10px; */
+}
+
+li {
+    display: flex;
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    top: 18px;
+    left: 175px;
+    font-size: 15px;
+    transition: 2s;
+}
+
+ul li {
+    margin: 20px;
+}
+
+#findbox {
+    border-radius: 5px;
+    height: 20px;
+    border: none;
+    position: relative;
+    top: 0px;
+    left: 1130px;
+    transition: 2s;
+    
+}
+
+li:hover {
+    cursor: pointer;
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
+    /* color: blue; */
+    /* box-shadow: 2px 1px 8px black; */
+}
+
+h2 {
+    
+    position: absolute;
+    padding: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    /* border: 1px solid black; */
+    /* text-shadow: 1px 1px 5px rgb(144, 5, 5);         */
+}
+
+li:hover {
+    color: rgb(13, 255, 0);
+    text-transform: uppercase;
+    
+}
+#findbox:hover{
+    transform: scale(1.1);
+    background-color: rgb(189, 249, 129);
+    border: none;
+}
+.image>img{
+    width: 100vw;
+    height: 720vh;
+}
+
+.click {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 100px;
+    transition: 2s;
+}
+#search-here:hover{
+    transform: scale(1.1);
+}
+
+#search-here {
+    width: 50vw;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    padding-left: 20px;
+}
+.click {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 100px;
+    transition: 2s;
+}
+#search-here{
+    transition: 2s;
+}
+
+#search-here:hover{
+    transform: scale(1.1);
+}
+
+#search-here {
+    width: 50vw;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    padding-left: 20px;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    width: 100vw;
+    /* background: rgb(247, 247, 247); */
+    /* background-color: var(--primary-color); */
+    background-color: #d97f19;
+    /* position: relative; */
+    z-index: 10;
+    font-size: 18px;
+    cursor: pointer;
+    position: fixed;
+    /* text-decoration:none; */
+    
+}

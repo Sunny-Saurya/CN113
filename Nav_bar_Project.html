@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        * {
+            margin: 0px;
+            /* padding: 0px; */
+        }
+
+        .navbar {
+            background-color: rgb(88, 63, 214);
+            width: 100vw;
+            height: 7vh;
+            color: white;
+            /* margin: 10px; */
+        }
+        
+        li {
+            display: flex;
+            display: inline;
+            margin: 10px;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+            top: 18px;
+            left: 175px;
+            font-size: 15px;
+            transition: 2s;
+        }
+        
+        ul li {
+            margin: 20px;
+        }
+        
+        #findbox {
+            border-radius: 5px;
+            height: 20px;
+            border: none;
+            position: relative;
+            top: 0px;
+            left: 1130px;
+            transition: 2s;
+            
+        }
+        
+        li:hover {
+            cursor: pointer;
+            text-shadow: 2px 2px 7px rgb(0, 0, 0);
+            /* color: blue; */
+            /* box-shadow: 2px 1px 8px black; */
+        }
+        
+        h2 {
+            
+            position: absolute;
+            padding: 13px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(0, 0, 0);
+            /* border: 1px solid black; */
+            /* text-shadow: 1px 1px 5px rgb(144, 5, 5);         */
+        }
+
+        li:hover {
+            color: rgb(13, 255, 0);
+            text-transform: uppercase;
+            
+        }
+        #findbox:hover{
+            transform: scale(1.1);
+            background-color: rgb(189, 249, 129);
+            border: none;
+        }
+        </style>
+</head>
+
+<body>
+    <h2>NavBar</h2>
+    <div class="navbar">
+        <ul>
+            <li>Dashboard</li>
+            <li>Address Book</li>
+            <li>Components</li>
+            <li>Calender</li>
+            <li>Charts</li>
+            <li>Document</li>
+        </ul>
+
+        <div class="search">
+            <input type="text" name="" id="findbox" placeholder="Seach here 🔍">
+        </div>
+
+    </div>
+</body>
+
+</html>
