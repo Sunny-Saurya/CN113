@@ -1,0 +1,42 @@
+.main{
+    height: 50vh;
+    width: 20vw;
+    background-color: rgb(255, 162, 0);
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 3px 10px black;
+    transition: 1s;
+}
+.main:hover{
+    transform: scale(0.97);
+}
+h2{
+    text-align: center;
+}
+.main img{
+    height: 20vh;
+    width: 20vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+button{
+    height: 30px;
+    width: 17vw;
+    margin-left: 15px; 
+    border-radius: 20px;
+    border: none; 
+    transition: 1s;
+    background-color: #de4141;
+     
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #de4141; 
+    transform: scale(1.1);
+    /* box-shadow:  2px 2px 5px black; */
+    
+}
